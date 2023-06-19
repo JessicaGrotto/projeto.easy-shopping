@@ -82,7 +82,6 @@ a:active{opacity: 0.8;}
 @media screen and (max-width: 900px){
     .container-left {
         width: 100%;
-        height: 50%;
         padding: 0;
         margin: 0;
     }
@@ -92,7 +91,7 @@ a:active{opacity: 0.8;}
         height: auto;
         width: 100%;
         position: static;
-        padding: 40px;
+        margin-top: 47px;
     }
 
     img{
@@ -107,7 +106,9 @@ a:active{opacity: 0.8;}
         font-size: 36px;
         line-height: 52px;
         width: auto;
-        margin: 58px 50px 0 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 58px;
         text-align: center;
     }
 
@@ -120,13 +121,11 @@ a:active{opacity: 0.8;}
     }
 
     button{
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
         display: block;
+        margin-bottom: 10px;
     }
             
-}
-@media screen and (max-width: 900px){
-    .container-left{
-        height: 70%;
-    }
 }
